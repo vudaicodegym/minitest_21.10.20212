@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 1</title>
+</head>
+<body>
+<!--cho trước 1 mảng n phần tử. viết hàm đếm in ra số lượng các số chẵn trong mảng-->
+<script>
+    let arr = [142857, 285714, 428571, 571428, 714285, 857142, 999999]
+    let soChan = 0
+        for (let i = 0; i < arr.length; i++){
+            if(arr[i] % 2 == 0) {
+                soChan++
+            }
+        }document.write("số lượng số chẵn trong mảng là: " + soChan)
+</script>
+</body>
+</html>
